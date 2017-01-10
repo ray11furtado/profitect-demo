@@ -1,3 +1,5 @@
+var WebpackBuildNotifier = require('webpack-build-notifier');
+
 module.exports = {
   entry: [
     './browser/index.js'
@@ -23,5 +25,12 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     contentBase: './'
-  }
+  },
+  plugins: [
+    new WebpackBuildNotifier({
+      title: "WebpackBuild",
+      sucessSound: true,
+      failureSound: true,
+    }),
+  ]
 };
