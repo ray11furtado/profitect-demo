@@ -1,8 +1,9 @@
+/* eslint-disable */
 var WebpackBuildNotifier = require('webpack-build-notifier');
 
 module.exports = {
   entry: [
-    './browser/index.js'
+    './browser/index.jsx'
   ],
   output: {
     path: __dirname,

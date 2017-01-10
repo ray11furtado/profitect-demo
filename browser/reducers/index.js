@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import currentCompany from './changeCompanyReducer';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  currentCompany,
 });
 
 export default rootReducer;

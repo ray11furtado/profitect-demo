@@ -1,3 +1,20 @@
+$font-stack: Lato, sans-serif;
+$primary-color: whitesmoke;
+$main-size: 14px;
+$black: #333;
+
 body {
-  color : purple;
+  font-family: $font-stack;
+  font-size: $main-size;
+  color : $primary-color;
+  border-right: 1px grey solid;
 }
+.container {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+
+@import 'navbar/navbar.scss';

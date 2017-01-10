@@ -1,9 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { connect } from 'react-redux';
+import * as actions from '../actions';
+import Navbar from './navbar';
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>Hello World</div>
-    );
-  }
+const App = props => (<Navbar company={props.currentCompany} />);
+
+function mapStateToProps(state) {
+  return { currentCompany: state.currentCompany.name };
 }
+
+export default connect(mapStateToProps, actions)(App);
