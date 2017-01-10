@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+    "start": "nodemon ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
   "author": "ray furtado",
   "license": "MIT",
@@ -17,6 +17,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.7.1",
+    "nodemon": "^1.11.0",
     "webpack": "^1.12.9",
     "webpack-build-notifier": "^0.1.13",
     "webpack-dev-server": "^1.14.0"
