@@ -8,6 +8,7 @@ body {
   font-size: $main-size;
   color : $primary-color;
   border-right: 1px grey solid;
+  background-color: $black;
 }
 .container {
   width: 100%;
@@ -18,3 +19,4 @@ body {
 
 
 @import 'navbar/navbar.scss';
+@import 'rightSidebar/modal.scss';

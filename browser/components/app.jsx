@@ -1,4 +1,11 @@
 import React from 'react';
 import Navbar from './navbar';
+import DataContainer from './dataContainer';
 
-export default App => <div> <Navbar /> </div>;
+const App = () => (
+  <div>
+    <Navbar />
+    <DataContainer />
+  </div>);
+
+export default App;
