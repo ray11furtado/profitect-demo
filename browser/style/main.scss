@@ -1,5 +1,5 @@
 $font-stack: Lato, sans-serif;
-$primary-color: whitesmoke;
+$primary-color: #333;
 $main-size: 14px;
 $black: #333;
 
@@ -8,7 +8,6 @@ body {
   font-size: $main-size;
   color : $primary-color;
   border-right: 1px grey solid;
-  background-color: $black;
 }
 .container {
   width: 100%;
@@ -20,3 +19,4 @@ body {
 
 @import 'navbar/navbar.scss';
 @import 'rightSidebar/modal.scss';
+@import 'rightSidebar/statusBox.scss';

@@ -43,8 +43,8 @@ class Navbar extends Component {
                   <a className="">Account</a>
                 </div>
                 <button
-                  type="button" id="uploader"
-                  className="btn btn-default margins"
+                  type="button"
+                  className="btn btn-default margins no-background-btn"
                   aria-label="Left Align"
                 >
                   <span className="glyphicon glyphicon-download-alt margins" aria-hidden="true" />

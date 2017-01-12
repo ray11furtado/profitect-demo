@@ -69,13 +69,13 @@ class RightSideBar extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="text-center">
         <div>
           <button
             onClick={this.openModal} type="button"
-            className="btn btn-default" aria-label="Left Align"
+            className="btn btn-default " aria-label="Left Align"
           >
-            <span className="glyphicon glyphicon-plus" aria-hidden="true" />
+            <span className="glyphicon glyphicon-plus " aria-hidden="true" />
           </button>
           <div>
             {this.showStatusBoxes()}
@@ -87,18 +87,27 @@ class RightSideBar extends Component {
     style={customStyles}
     contentLabel="Add Status Box"
   >
-    <h2>Add A Task</h2>
+    <h2>Add Status Box</h2>
     <form>
       <input
-        placeholder="Task Title"
+        placeholder="Status Title"
         onChange={this.onTitleChange}
       />
       <input
-        placeholder="Task Description"
+        placeholder="Status Description"
         onChange={this.onDescriptionChange}
+        className="modal-btn"
       />
-      <button onClick={this.onModalSubmit}>Submit</button>
-      <button onClick={this.closeModal}>Cancel</button>
+      <button
+        onClick={this.onModalSubmit}
+        className="btn btn-primary modal-btn"
+      > Submit
+      </button>
+      <button
+        onClick={this.closeModal}
+        className="btn btn-danger"
+      >Cancel
+      </button>
     </form>
   </Modal>
 </div>

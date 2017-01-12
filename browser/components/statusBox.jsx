@@ -2,11 +2,11 @@ import React from 'react';
 
 const StatusBox = props => (
   <div>
-    <div className="top">
-      <h2>{props.title}</h2>
+    <div className="top text-center">
+      <h3 clasName="align-left">{props.title}</h3>
     </div>
-    <div className="bottom">
-      <h3>{props.desc}</h3>
+    <div className="bottom text-center">
+      <p className="align-left">{props.desc}</p>
     </div>
   </div>
 );
