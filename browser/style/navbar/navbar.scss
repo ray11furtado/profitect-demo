@@ -5,7 +5,11 @@
   cursor:pointer;
   overflow: hidden;
   outline:none;
-  color: whitesmoke
+  color: whitesmoke;
+  width: 2em;
+}
+.no-background-btn:hover {
+    background-color: lighten($black, 20%);
 }
 
 .navbar-default {

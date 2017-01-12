@@ -1,0 +1,52 @@
+.icon-detail {
+  margin-top: 1em;
+  span {
+    font-size: 2.5em;
+    margin-top: .3em;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    padding: .3em;
+    border: 2px solid $black;
+    background-color: $black;
+    color: whitesmoke;
+    text-align: center;
+  }
+  h3 {
+    font-size: 2.5em;
+    margin-top: .3em;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    padding: .3em;
+    border: 2px solid $black;
+    background-color: $black;
+    color: whitesmoke;
+  }
+  h4 {
+    font-weight: 300;
+    color: $blue;
+  }
+}
+.globe {
+  font-size:4.2em;
+  h4 {
+    font-weight: 300;
+    color: $blue;
+  }
+}
+.project-text {
+  margin-top: .5em;
+  height: 5em;
+  background-color: $black;
+  p {
+    padding-top: .6em;
+    color: whitesmoke;
+    font-size: 1.2em;
+  }
+  span {
+    font-size: 1.5em;
+    margin-top: .8em;
+    background-color: $black;
+    color: whitesmoke;
+    text-align: center;
+  }
+}

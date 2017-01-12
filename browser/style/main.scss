@@ -2,6 +2,7 @@ $font-stack: Lato, sans-serif;
 $primary-color: #333;
 $main-size: 14px;
 $black: #333;
+$blue: #428bca;
 
 body {
   font-family: $font-stack;
@@ -14,9 +15,13 @@ body {
   padding-right: 0px;
   padding-left: 0px;
 }
-
+.container-fluid {
+  border: 2px solid red;
+}
 
 
 @import 'navbar/navbar.scss';
 @import 'rightSidebar/modal.scss';
 @import 'rightSidebar/statusBox.scss';
+@import 'detailBar/detailBar.scss';
+@import 'projectDetail/projectDetail.scss';
