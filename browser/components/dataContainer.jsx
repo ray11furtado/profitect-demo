@@ -5,6 +5,13 @@ import ProjectDetail from './projectDetail';
 import ChatContainer from './chatContainer';
 
 class DataContainer extends Component {
+
+  componentWillMount() {
+    /* Here is where we call our action that makes a call to the DB and loads the data
+     onto the application state.
+     We could then pass that data into the ProjectDetail component as props
+    */
+  }
   render() {
     return (
       <div className="container-fluid">
