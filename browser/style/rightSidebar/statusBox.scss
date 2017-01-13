@@ -1,9 +1,10 @@
 .single-box {
-  background-color: $black;
+  background-color: darken($blue, 20%);
+  margin-bottom: .5em;
 }
 .top {
-  background-color: darken($blue, 30%);
-  margin-bottom: 1px;
+  background-color: darken($blue, 20%);
+  margin-bottom: .1em;
   padding: .5em 0 .5em 0;
   h4 {
     margin-bottom: 0px;
@@ -15,5 +16,6 @@
   padding: .2em 0 .2em 0;
   p {
     color: whitesmoke;
+    margin-top: .6em;
   }
 }

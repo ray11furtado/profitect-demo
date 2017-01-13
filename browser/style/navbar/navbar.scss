@@ -11,24 +11,20 @@
 .no-background-btn:hover {
     background-color: lighten($black, 20%);
 }
-
 .navbar-default {
   background-color: #333;
   color: whitesmoke;
 }
-
 .margins {
   margin-right: 2.5em;
 }
 .company {
   margin-left: .5em;
 }
-
 .company-input {
   background-color: darken($black,10%);
   border: 0px;
 }
-
 .company-btn {
   color: whitesmoke;
   background-color: inherit;
