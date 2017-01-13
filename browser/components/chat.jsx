@@ -15,7 +15,6 @@ class Chat extends React.Component {
     this.setState({ currentMessage: event.target.value });
   }
   sendMessage(event) {
-    console.log('hello');
     event.preventDefault();
     this.setState({ messages: this.state.messages.concat([this.state.currentMessage]) });
   }
@@ -40,7 +39,7 @@ class Chat extends React.Component {
           </button>
         </div>
         <div className="chat-text">
-          <ChatText message="Type in Input Box Above and Send a Message" />
+          <ChatText message="Send a message and add some status boxes on the right!!" />
           <div>
             {this.showMessages()}
           </div>

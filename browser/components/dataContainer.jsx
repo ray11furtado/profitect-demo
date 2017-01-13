@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import * as actions from '../actions';
 import RightSideBar from './rightSidebar';
 import DetailBar from './detailBar';
 import ProjectDetail from './projectDetail';
@@ -9,7 +11,10 @@ class DataContainer extends Component {
   componentWillMount() {
     /* Here is where we call our action that makes a call to the DB and loads the data
      onto the application state.
-     We could then pass that data into the ProjectDetail component as props
+     We would pass in the current company name to the actions
+     We would then pass that data into the ProjectDetail component as props
+     OR
+     We can call our actions in side the ProjectDetail and load up the data directly from there
     */
   }
   render() {
@@ -31,4 +36,4 @@ class DataContainer extends Component {
   }
 }
 
-export default DataContainer;
+export default connect(null, actions)(DataContainer);
