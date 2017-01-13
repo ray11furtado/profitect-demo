@@ -23,3 +23,14 @@
 .company {
   margin-left: .5em;
 }
+
+.company-input {
+  background-color: darken($black,10%);
+  border: 0px;
+}
+
+.company-btn {
+  color: whitesmoke;
+  background-color: inherit;
+  border: 0px;
+}

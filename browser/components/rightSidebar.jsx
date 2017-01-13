@@ -73,11 +73,11 @@ class RightSideBar extends Component {
         <div>
           <button
             onClick={this.openModal} type="button"
-            className="btn btn-default " aria-label="Left Align"
+            className="btn btn-default add-btn" aria-label="Left Align"
           >
-            <span className="glyphicon glyphicon-plus " aria-hidden="true" />
+            <span className="glyphicon glyphicon-plus" aria-hidden="true" />
           </button>
-          <div>
+          <div className="col-md-auto">
             {this.showStatusBoxes()}
           </div>
         </div>

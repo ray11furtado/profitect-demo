@@ -1,9 +1,9 @@
 import React from 'react';
 
 const StatusBox = props => (
-  <div>
+  <div className="single-box">
     <div className="top text-center">
-      <h3 clasName="align-left">{props.title}</h3>
+      <h4 clasName="align-left">{props.title}</h4>
     </div>
     <div className="bottom text-center">
       <p className="align-left">{props.desc}</p>

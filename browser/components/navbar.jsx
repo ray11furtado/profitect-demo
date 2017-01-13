@@ -28,14 +28,14 @@ class Navbar extends Component {
                 <div className="form-group">
                   <input
                     type="text"
-                    className="form-control margins"
+                    className="form-control company-input margins"
                     placeholder="Search Company"
                     onChange={this.handleSearch}
                     onSubmit={this.handleSearch}
                   />
                 <button
                   type="submit"
-                  className="margins btn btn-default"
+                  className="margins btn btn-default company-btn"
                   onClick={() => this.props.changeCompany(this.state.company)}
                 >
                 Submit

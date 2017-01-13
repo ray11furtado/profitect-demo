@@ -1,15 +1,19 @@
+.single-box {
+  background-color: $black;
+}
 .top {
   background-color: darken($blue, 30%);
   margin-bottom: 1px;
-  h3 {
+  padding: .5em 0 .5em 0;
+  h4 {
     margin-bottom: 0px;
     color: whitesmoke;
   }
 }
 .bottom {
-  background-color: darken($blue, 10%);
+  background-color: $blue;
+  padding: .2em 0 .2em 0;
   p {
-    margin-top: 0px;
     color: whitesmoke;
   }
 }
