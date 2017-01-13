@@ -1,0 +1,19 @@
+.chat-nav {
+  background-color: $blue;
+  height: 3.5em;
+  div {
+    color: whitesmoke;
+    align: text-center;
+    padding-top: .45em;
+    font-size: 1.1em;
+  }
+  .col-md-10 {
+    div:hover {
+      border-bottom: 2px solid lighten($blue, 20%);
+    }
+  }
+  .badge {
+    background-color: $red;
+    font-size: .8em;
+  }
+}
