@@ -1,17 +1,36 @@
 .text-input {
   margin-top: 1em;
   margin-bottom: .5em;
-  background-color: white;
   input {
-    margin-left: 1em;
+    margin-left: 7.5em;
+    width: 55em;
   }
   .glyphicon {
     font-size: 1.5em;
-    margin-top: .5em;
+    margin-top: .7em;
   }
   .btn {
-    margin-top: .5em;
+    margin-top: .7em;
     border-radius: 15%;
     height: 2.5em;
+  }
+}
+
+.chat-text{
+  height: 35em;
+  .sender {
+    margin-top: 1em;
+  }
+  .text {
+    position:relative;
+    padding:15px;
+    color:#fff; /* default background for browsers without gradient support */
+    background-color: $green;
+    border-radius:.8em;
+    width: 55em;
+    top:1em;
+    left:-3.1em;
+    bottom:auto;
+    border-color:transparent #f3961c;
   }
 }
